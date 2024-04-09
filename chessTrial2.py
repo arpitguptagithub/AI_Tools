@@ -161,6 +161,7 @@ def main():
     board = chess.Board()
     depth = int(input("Enter the depth for Minimax: "))
     print(board)
+    print("\n")
     while not board.is_game_over():
         if board.turn == chess.WHITE:
             # Player's turn
